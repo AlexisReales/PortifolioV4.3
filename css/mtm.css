@@ -1,0 +1,57 @@
+body{
+    margin: auto;
+    color: white;
+    text-align: center;  
+}
+header{
+    padding: 1px;
+    color: white;
+    background-color: black;
+    border-bottom: double whitesmoke 4px;
+}
+nav{
+    background-color: black;
+    padding: 0.5px;
+    border-bottom: dashed white 1px;
+}
+nav ul{
+    padding: 3px;
+    display: flex;
+    margin: auto;
+    list-style: none;
+    margin-left: 10px;
+}
+li a{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    color: rgb(213, 202, 202);
+}
+.container{
+    background-color: #18121F;
+    padding: 10px;
+    border-bottom: solid white 1px;
+    margin: auto;
+}
+.container p{
+    margin: auto;
+    max-width: 1600px;
+    font-size: 18px;
+}
+.VSM video{
+    width: 1200px;
+}
+footer{
+    background-color: black;
+    padding: 1px;
+}
+footer a{
+    text-decoration: none;
+    color: #551A8B;
+}
+footer a:hover{
+    color: #451b6b;
+}
